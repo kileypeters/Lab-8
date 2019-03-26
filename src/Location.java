@@ -1,0 +1,13 @@
+
+public enum Location {
+	
+	KITCHEN,
+	CONSERVATORY,
+	DINING_ROOM,
+	BALLROOM,
+	STUDYHALL,
+	LOUNGE,
+	LIBRARY,
+	BILLIARD_ROOM,;
+
+}
