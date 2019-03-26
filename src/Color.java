@@ -1,4 +1,9 @@
-
+/**
+ * Class representing colors of game pieces.
+ * 
+ * @author Kiley
+ *
+ */
 public enum Color {
 	
 	BLUE(0, 0, 255), CYAN(0, 255, 255), GREEN(0, 255, 0), MAGENTA(255, 0, 255), RED(255, 0, 0), YELLOW(255, 255, 0),;
@@ -7,7 +12,13 @@ public enum Color {
 	private int g;
 	private int b;
 	
-	
+	/**
+	 * Color constructor.
+	 * 
+	 * @param r Red value.
+	 * @param g Green value.
+	 * @param b Blue value.
+	 */
 	Color(int r, int g, int b)
 	{
 		this.r = r;
@@ -16,16 +27,28 @@ public enum Color {
 		
 	}
 	
+	/**
+	 * 
+	 * @return The color's red component.
+	 */
 	public int getR() {
-		return r;
+		return this.r;
 	}
 
+	/**
+	 * 
+	 * @return The color's green component.
+	 */
 	public int getG() {
-		return g;
+		return this.g;
 	}
 
+	/**
+	 * 
+	 * @return The color's blue component.
+	 */
 	public int getB() {
-		return b;
+		return this.b;
 	}
 	
 	
