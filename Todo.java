@@ -13,8 +13,6 @@ Tasks:
 6. Complete Shape class.
 7. Create tests.
 
-
-
 Estimated Time (minutes):
 1. 120
 2. 60
